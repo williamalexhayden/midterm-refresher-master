@@ -1,0 +1,98 @@
+/***************
+	Global 
+***************/
+body {
+	background: url("../img/bg.png");
+}
+
+p {
+	line-height: 24px;
+}
+
+/***************
+	Typography
+***************/
+h3 {
+	font-family: 'Open Sans', 'sans-serif';
+	margin-left: -32px;
+}
+
+h3 + p {
+	font-style: italic;
+	font-weight: bold;
+}
+
+p > a {
+	color: rgb(13, 202, 250);
+	border-bottom: 1px solid #fff;
+	text-decoration: none;
+}
+
+footer p {
+	text-align: right;
+	font-style: italic;
+}
+
+/***************
+	Navigation
+***************/
+li {
+  list-style: none;
+  float: left;
+  margin: 0 4px 0 4px;
+}
+
+nav a:link,
+nav a:visited  {
+  color: #333;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px 10px 10px 32px;
+}
+
+nav a:hover,
+nav a:active {
+	color: rgb(13, 202, 250);
+}
+
+nav a:focus {
+  border: 1px dotted #000;
+}
+
+/***************
+	Hover States 
+***************/
+#mozilla a:hover {
+	background: url("../img/firefox.png") no-repeat left center;
+}
+
+#google a:hover {
+	background: url("../img/chrome.png") no-repeat left center;
+}
+
+#apple a:hover {
+	background: url("../img/safari.png") no-repeat left center;
+}
+
+#microsoft a:hover {
+	background: url("../img/ie.png") no-repeat left center;
+}
+
+#opera a:hover {
+	background: url("../img/opera.png") no-repeat left center;
+}
+
+/***************
+	Blockquote 
+***************/
+blockquote {
+	color: #36d488;
+	font: italic 32px/42px "Hoefler Text", "Baskerville old face", Garamond, "Times New Roman", serif;
+	letter-spacing: 2px;
+	text-align: center;
+}
+
+
+
+
+

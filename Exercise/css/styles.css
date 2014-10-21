@@ -1,0 +1,58 @@
+/***************
+	Global 
+***************/
+
+/* 	Paragraph
+	line-height: 24px; 
+*/
+
+
+/***************
+	Typography
+***************/
+
+/*	Paragraph Text Links
+	color: rgb(13, 202, 250);
+	border-bottom: 1px solid #fff;
+	text-decoration: none;
+*/
+
+
+/***************
+	Navigation
+***************/
+li {
+  list-style: none;
+  float: left;
+  margin: 0 4px 0 4px;
+}
+
+
+/* 	Main Nav Links
+	color: #333;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 10px 10px 10px 32px;
+
+*/
+
+
+/***************
+	Hover States 
+***************/
+
+
+/***************
+	Blockquote 
+***************/
+
+/* 	Blockquote
+	color: #36d488;
+	font: italic 32px/42px "Hoefler Text", "Baskerville old face", Garamond, "Times New Roman", serif;
+	letter-spacing: 2px;
+	text-align: center;
+*/
+
+
+
+
